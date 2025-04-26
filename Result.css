@@ -1,0 +1,98 @@
+.top:hover,.MainContent:hover,.Search:hover{
+    background-color: rgb(183, 186, 189);
+}
+h1{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.MainContent,.Search{
+    float: right;
+}
+.Search{
+    width:70px;
+}
+.top{
+    float:left;
+}
+.home{
+    background-color: orange;
+    width:120px;
+}
+.home,.contact,.select{
+    float:left;
+}
+.home:hover,.contact:hover,.select:hover{
+    background-color:rgb(255, 191, 0);
+}
+option{
+    display:block;
+}
+option{
+    background-color:rgb(9, 12, 56) ;
+    color:aliceblue;
+}
+.last{
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    height:400px;
+}
+p{
+    text-align: center;
+}
+.info{
+    display: flex;
+    background-color: white;
+    height:800px;
+    align-items: flex-start;
+    justify-content:flex-end;
+    
+
+    
+}
+.poweredby{
+    display:flex;
+    background-color: black;
+    justify-content: center;
+    
+}
+.power{
+    height:80px;
+    width:200px;
+    padding:30px;
+    
+}
+.inforesult{
+    background-color: rgb(226, 226, 226);
+    height:180px;
+    padding: 40px;
+    border-radius: 20px;
+    margin: 10px;
+}
+.inforesult2{
+    background-color: rgb(226, 226, 226);
+    height:700px;
+    width:1800px;
+    padding: 40px;
+    border-radius: 20px;
+    margin: 10px;
+    overflow: auto;
+}
+li{
+    font-size:27px;
+    text-align:left;
+    line-height: 38px;
+    
+}
+
+h3{
+    font-size: 45px; 
+    padding:0px;
+    margin: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

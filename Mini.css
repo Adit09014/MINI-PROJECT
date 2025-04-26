@@ -1,0 +1,10 @@
+.tiro1{
+    font-family: "Hind", sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 40px;
+}
+
+button:hover{
+    background-image:linear-gradient(to right,rgb(17, 22, 47),rgb(41, 152, 188));
+}

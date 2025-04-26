@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Updation Portal</title>
+    <link rel="stylesheet" href="./Data.css">
+</head>
+<body>
+    <header>
+<div  class="head">     
+        <div class="image">
+        <img src="./CBSEimage.png">
+        </div>
+        <div>
+        <h1>Student Result Updation Portal</h1>
+        </div>
+</div>
+    </header>
+    <div class="content">
+    <form>
+        <h2>Update Student Result Details</h2>
+        <label for="firstname">First Name :</label><br>
+        <input type="text" name="firstname" placeholder=" Enter your First name" required>
+        <br>
+        <label for="lastname">Last Name :</label><br>
+        <input type="text" name="lastname" placeholder=" Enter your Last name" required>  
+        <br>
+        <label for="RationCard">Ration Card Number :</label> <br>
+        <input type="tel" name="RationCard" placeholder=" Enter your Ration Card number">  
+        <br>
+        <label for="address">Address :</label>
+        <br>
+        <textarea name="message" id="message" cols="30" 
+        height="40px" placeholder="Enter your Address"></textarea>   
+        <br>
+        <label for="category">Category :</label>
+        <select id="category" name="category">
+            <option>Select your Category</option>
+            <option value="aay">Antyodaya Anna Yojana</option>
+            <option value="bpl">Below Poverty Line</option>
+            <option value="apl">Above Poverty Line</option>
+            <option value="ay">Annapurna Yojana</option>
+        </select>
+        <br>
+        <label for="PhoneNumber">Phone Number :</label><br>
+        <input type="tel" name="PhoneNumber" placeholder=
+        " Enter your phone number" required>
+        <br>
+        <label for="State">State : </label>
+        <select name="State">
+            <option>Select an Option</option>
+            <option>Andhra Pradesh</option>
+            <option>Arunachal Pradesh</option>
+            <option>Assam</option>
+            <option>Bihar</option>
+            <option>Chhattisgarh</option>
+            <option>Goa</option>
+            <option>Gujarat</option>
+            <option>Bangladesh</option>
+            <option>Haryana</option>
+            <option>Himachal Pradesh</option>
+            <option>Jharkhand</option>
+            <option>Karnataka</option>
+            <option>Kerala</option>
+            <option>Madhya Pradesh</option>
+            <option>Maharashtra</option>
+            <option>Manipur</option>
+            <option>Meghalaya</option>
+            <option>Mizoram</option>
+            <option>Nagaland</option>
+            <option>Odisha</option>
+            <option>Punjab</option>
+            <option>Rajasthan</option>
+            <option>Tamil Nadu</option>
+            <option>Uttar Pradesh</option>
+            <option>Uttarakhand</option>
+            <option>West Bengal</option>
+        </select>
+        <br>
+        <label for="document">Upload Supporting Documents :</label>
+        <input type="file" id="document" name="document" accept="image/*,.pdf" required>
+        <br>
+        <button type="Submit" value="Submit">SUBMIT</button>
+    </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 CBSE Result Services. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>

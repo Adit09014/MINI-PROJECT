@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Updation Portal</title>
+    <link rel="stylesheet" href="./Data.css">
+</head>
+<body>
+    <header>
+        <div class="head">     
+            <div class="image">
+                <img src="./CBSEimage.png">
+            </div>
+            <div>
+                <h1>Student Result Addition Portal</h1>
+            </div>
+        </div>
+    </header>
+    <div class="content">
+        <form>
+            <h2>Student Result Details</h2>
+            <label for="rollno">1. Roll Number :</label><br>
+            <input type="text" name="rollno" placeholder="Enter Roll Number" required>
+            <br><br>
+            <label for="name">2. Name :</label><br>
+            <input type="text" name="name" placeholder="Enter Student's Name" required>
+            <br><br>
+            <label for="mothername">3. Mother's Name :</label><br>
+            <input type="text" name="mothername" placeholder="Enter Mother's Name" required>
+            <br><br>
+            <label for="fathername">4. Father's Name :</label><br>
+            <input type="text" name="fathername" placeholder="Enter Father's Name" required>
+            <br><br>
+            <label for="dob">5. Date of Birth :</label><br>
+            <input type="date" name="dob" placeholder="Enter Date of Birth" required>
+            <br><br>
+            <label for="school">6. School :</label><br>
+            <input type="text" name="school" placeholder="Enter School Name" required>
+            <br><br>
+            <label for="schoolId">7. School ID :</label><br>
+            <input type="text" name="schoolId" placeholder="Enter School ID" required>
+            <br><br>
+            <h3>8. Subjects and Grades</h3>
+            <div id="subjects">
+                <h4>Subject 1</h4>
+                <label>Subject Code:</label> <input type="text" name="subjectcode1" placeholder="Enter Subject Code" required><br>
+                <label>Subject Name:</label> <input type="text" name="subjectname1" placeholder="Enter Subject Name" required><br>
+                <label>Theory Marks:</label> <input type="number" name="theory1" placeholder="Enter Theory Marks" required><br>
+                <label>Practical Marks:</label> <input type="number" name="practical1" placeholder="Enter Practical Marks" required><br>
+                <label>Total Marks:</label> <input type="number" name="total1" placeholder="Enter Total Marks" required><br>
+                <label>Grade:</label> <input type="text" name="positionalgrade1" placeholder="Enter Grade" required><br><br>
+                
+                <h4>Subject 2</h4>
+                <label>Subject Code:</label> <input type="text" name="subjectcode2" placeholder="Enter Subject Code" required><br>
+                <label>Subject Name:</label> <input type="text" name="subjectname2" placeholder="Enter Subject Name" required><br>
+                <label>Theory Marks:</label> <input type="number" name="theory2" placeholder="Enter Theory Marks" required><br>
+                <label>Practical Marks:</label> <input type="number" name="practical2" placeholder="Enter Practical Marks" required><br>
+                <label>Total Marks:</label> <input type="number" name="total2" placeholder="Enter Total Marks" required><br>
+                <label>Grade:</label> <input type="text" name="positionalgrade2" placeholder="Enter Grade" required><br><br>
+                
+                <h4>Subject 3</h4>
+                <label>Subject Code:</label> <input type="text" name="subjectcode3" placeholder="Enter Subject Code" required><br>
+                <label>Subject Name:</label> <input type="text" name="subjectname3" placeholder="Enter Subject Name" required><br>
+                <label>Theory Marks:</label> <input type="number" name="theory3" placeholder="Enter Theory Marks" required><br>
+                <label>Practical Marks:</label> <input type="number" name="practical3" placeholder="Enter Practical Marks" required><br>
+                <label>Total Marks:</label> <input type="number" name="total3" placeholder="Enter Total Marks" required><br>
+                <label>Grade:</label> <input type="text" name="positionalgrade3" placeholder="Enter Grade" required><br><br>
+                
+                <h4>Subject 4</h4>
+                <label>Subject Code:</label> <input type="text" name="subjectcode4" placeholder="Enter Subject Code" required><br>
+                <label>Subject Name:</label> <input type="text" name="subjectname4" placeholder="Enter Subject Name" required><br>
+                <label>Theory Marks:</label> <input type="number" name="theory4" placeholder="Enter Theory Marks" required><br>
+                <label>Practical Marks:</label> <input type="number" name="practical4" placeholder="Enter Practical Marks" required><br>
+                <label>Total Marks:</label> <input type="number" name="total4" placeholder="Enter Total Marks" required><br>
+                <label>Grade:</label> <input type="text" name="positionalgrade4" placeholder="Enter Grade" required><br><br>
+                
+                <h4>Subject 5</h4>
+                <label>Subject Code:</label> <input type="text" name="subjectcode5" placeholder="Enter Subject Code" required><br>
+                <label>Subject Name:</label> <input type="text" name="subjectname5" placeholder="Enter Subject Name" required><br>
+                <label>Theory Marks:</label> <input type="number" name="theory5" placeholder="Enter Theory Marks" required><br>
+                <label>Practical Marks:</label> <input type="number" name="practical5" placeholder="Enter Practical Marks" required><br>
+                <label>Total Marks:</label> <input type="number" name="total5" placeholder="Enter Total Marks" required><br>
+                <label>Grade:</label> <input type="text" name="positionalgrade5" placeholder="Enter Grade" required><br><br>
+                
+                <h4>Subject 6</h4>
+                <label>Subject Code:</label> <input type="text" name="subjectcode6" placeholder="Enter Subject Code" required><br>
+                <label>Subject Name:</label> <input type="text" name="subjectname6" placeholder="Enter Subject Name" required><br>
+                <label>Theory Marks:</label> <input type="number" name="theory6" placeholder="Enter Theory Marks" required><br>
+                <label>Practical Marks:</label> <input type="number" name="practical6" placeholder="Enter Practical Marks" required><br>
+                <label>Total Marks:</label> <input type="number" name="total6" placeholder="Enter Total Marks" required><br>
+                <label>Grade:</label> <input type="text" name="positionalgrade6" placeholder="Enter Grade" required><br><br>
+            </div>
+            <label for="result">9. Final Result :</label><br>
+            <input type="text" name="result" placeholder="Enter Result Status" required>
+            <br><br>
+            <button type="Submit">SUBMIT</button>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2025 CBSE Result Services. All rights reserved.</p>
+    </footer>
+</body>
+</html>

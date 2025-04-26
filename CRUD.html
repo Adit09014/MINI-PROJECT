@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CRUD.css">
+</head>
+<body>
+    <header>
+        <div  class="head">     
+                <div class="image">
+                <img src="./CBSELogo.png" style="height: 150px;">
+                </div>
+                <div>
+                <h1>Student Result Portal For Admin</h1>
+                </div>
+        </div>
+    </header>
+    <br>
+    <div class="box">
+    <div class="option">
+        <button onclick="Create()" class="CREATE">CREATE</button><br>
+        <button class="UPDATE">UPDATE</button><br>
+        <button class="DELETE">DELETE</button>
+    </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 CBSE Result Services. All rights reserved.</p>
+    </footer>
+    
+</body>
+<script>
+    function Create(){
+        window.location.href="http://localhost:5170"
+    }
+    function Delete(){
+        window.location.href="http://localhost:5171"
+    }
+    function Update(){
+        window.location.href="http://localhost:5172"
+    }
+</script>
+</html>
